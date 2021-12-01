@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.majiang {
+    height: 160px;
+    width: 120px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.majiang .point {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    background-color: #bbb;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+}
+
+.tong1 div.point {
+    height: 70px;
+    width: 70px;
+}
+
+.tong2 div.point {
+    height: 50px;
+    width: 50px;
+}
+
+.tong3 div.point {
+    height: 40px;
+    width: 40px;
+}
+
+.tong4 div.point,
+.tong5 div.point {
+    height: 30px;
+    width: 30px;
+}
+
+.tong1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tong2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tong3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tong3 .row2 {
+    align-self: center;
+}
+
+.tong3 .row3 {
+    align-self: flex-end;
+}
+
+.tong4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tong4>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tong5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.tong5>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tong6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.majiang.tong6 .point {
+    margin: 10%;
+}
+
+.tong7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tong7 .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.tong7 .top div.point,
+.tong7 .bottom div.point {
+    width: 20px;
+    height: 20px;
+}
+
+.tong7 .top div.point {
+    margin: 1px;
+}
+
+.tong7 .top div:nth-child(1) {
+    align-self: flex-end;
+}
+
+.tong7 .top div:nth-child(2) {
+    align-self: center;
+}
+
+.tong7 .bottom {
+    display: flex;
+}
+
+.tong8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tong8 div.point {
+    margin: 0 10px;
+}
+
+.tong9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tong9 div.point {
+    margin: 0 4px;
+}
